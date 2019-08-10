@@ -1,6 +1,6 @@
-function Cat(name, age) {
+function Cat(name) {
 	this.name = name;
-	this.age = age;
+	this.stomach = [];
 }
 
 module.exports= Cat;

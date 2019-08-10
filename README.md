@@ -4,5 +4,5 @@
 // git commit -m ""
 
 // git log
-// git show 
+// git show + "mã băm commit" 
 // git diff

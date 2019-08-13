@@ -32,4 +32,4 @@ ____________________________________________________________________
 
 18.// .gitinore -- là nơi chứa các file, thư mục ta không muốn chúng xuất hiện để commit
 
-19.// git config --global credential.helper "cache --timeout=18000"  -- không phải đăng nhập nhiều lần
+19.// git config --global credential.helper wincred  -- không phải đăng nhập nhiều lần

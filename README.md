@@ -16,7 +16,7 @@ __________________________________________________________
 
 10.// git checkout -b nhánh -> tạo nhánh mới
 11.// git checkout nhánh   -> chuyển sang nhánh được checkout 
-12.// git merge
+12.// git merge nhánh
 A <-- B
 git checkout A -> chuyển sang nhánh A
 git merge B
@@ -31,3 +31,5 @@ ____________________________________________________________________
 17.// git revert "mã băm commit" -- (ít dùng) tạo ra 1 commit mới đảo ngược lại commit ở trên. những thay đổi trong code của lần commit trong quá khứ sẽ biến mất trong commit vừa tạo ra 
 
 18.// .gitinore -- là nơi chứa các file, thư mục ta không muốn chúng xuất hiện để commit
+
+19.// $ git config --global credential.helper "cache --timeout=18000"  -- không phải đăng nhập nhiều lần

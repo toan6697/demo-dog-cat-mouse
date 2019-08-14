@@ -28,8 +28,15 @@ ____________________________________________________________________
 15.// git reset --mixed "mã băm commit" -- quay lại lần commit trên ( về trạng thái đỏ ) mất commit trên đường đi nhưng code sẽ không thay đổi (muốn thay đổi code dùng lệnh 8, 9)
 16.// git reset --hard "mã băm commit" -- quay lại lần commit trên, xóa tất cả commit trên đường đi ( ít dùng do tất cả code của các commit sẽ bị xóa theo các commit )
 
+__________________________________________
+
 17.// git revert "mã băm commit" -- (ít dùng) tạo ra 1 commit mới đảo ngược lại commit ở trên. những thay đổi trong code của lần commit trong quá khứ sẽ biến mất trong commit vừa tạo ra 
 
 18.// .gitinore -- là nơi chứa các file, thư mục ta không muốn chúng xuất hiện để commit
 
 19.// git config --global credential.helper wincred  -- không phải đăng nhập nhiều lần
+__________________________________________
+
+20.// git clone tênRepo --copy nguyên bản project về máy
+21.// git pull 
+22.// git push origin <branch> -> tạo new pull request để mời người khác review ( quá trình review xem video 13)-> merge vào master

@@ -52,5 +52,6 @@ __________________________________________
 20.// git clone tênRepo -->copy nguyên bản project về máy
 
 21.// git pull 
+ -> tạo new pull request để mời người khác review ( quá trình review xem video 13)
 
-22.// git push origin branch -> tạo new pull request để mời người khác review ( quá trình review xem video 13)-> merge vào master
+22.// git push origin branch/master -> merge vào branch/master

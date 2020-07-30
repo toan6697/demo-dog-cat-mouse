@@ -1,3 +1,5 @@
+Đầu tiên tạo kho online sau đó clone về máy bằng lệnh 20
+
 1.// git init
 
 2.// git status
@@ -51,7 +53,7 @@ __________________________________________
 
 20.// git clone tênRepo -->copy nguyên bản project về máy
 
-21.// git pull 
- -> tạo new pull request để mời người khác review ( quá trình review xem video 13)
+21.// git pull origin master
+ -> gộp những thay đổi mới kéo về từ máy chủ từ xa với nhánh hiện tại trên máy local.
 
 22.// git push origin branch/master -> merge vào branch/master

@@ -1,6 +1,6 @@
-Đầu tiên tạo kho online sau đó clone về máy bằng lệnh 20
+Đầu tiên tạo kho online sau đó clone về máy bằng lệnh 20. Nếu có kho rồi chỉ cần clone bằng lệnh 20
 
-1.// git init
+1.// git init   (tạo kho ở local)
 
 2.// git status
 
